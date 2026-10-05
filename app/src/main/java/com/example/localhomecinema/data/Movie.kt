@@ -11,6 +11,8 @@ data class Movie(
 
     var videoSource: String = "",
 
+    var videoSize: Long = 0,
+
     var startTime: Long = 0
 
 )
